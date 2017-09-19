@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
-
+ 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Tools! - Tools for helping programmers and not programmers!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
 	<meta name="description" content="Tools for helping programmers and not programmers!">
 	<meta name="keywords" content="md5,sha1,base64 encode, base64 decode, xtea encode,xtea decode, string length,substring,replace a string, strip html tags, reverse a string">
-	
+
 	<meta name='robots'content='index,follow'>
 	<meta name='googlebot' content='index,follow'>
 	<meta name='Slurp' content='index,follow'>
 	<meta name='msnbot' content='index,follow'>
-	<meta name='author' content='Leandro Curioso'> 
+	<meta name='author' content='Leandro Curioso'>
 
 	<meta property="og:title" content="Tools! - Tools for helping programmers and not programmers!">
 	<meta property="og:type" content="website">
@@ -25,7 +25,7 @@
 	<meta property="og:site_name" content="Tools! - Tools for helping programmers and not programmers!">
 	<meta property="fb:admins" content="leandrocurioso">
 	<meta property="og:description" content="Tools for helping programmers and not programmers!">
-	
+
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon">
@@ -38,8 +38,8 @@
     <link href="css/tools.css" rel="stylesheet">
 
     <script src="js/ie-emulation-modes-warning.js"></script>
-	
-	
+
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -50,7 +50,7 @@
 <body>
 
     <div class="site-wrapper">
-		
+
         <div class="site-wrapper-inner">
 
             <div class="cover-container">
@@ -108,7 +108,7 @@
 									</ul>
 								</div>
 							</li>
-							
+
 							<li>
 								<div class="dropdown">
 									<button class="btn btn-primary dropdown-toggle" type="button" id="string-operations" data-toggle="dropdown">
@@ -132,7 +132,7 @@
                         </ul>
                         </div>
                     </div>
-					
+
                     <div class="inner cover box-frame" id="first-frame">
 					<img src="img/tools.png" width='250' height='250'/>
                         <h1 class="cover-heading">A nice web toolkit for helping!</h1>
@@ -142,11 +142,11 @@
                             <a href="mailto:mail@leandrocurioso.com" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-envelope"></span> Contact the developer!</a>
                         </p>
                     </div>
-					
-					
+
+
 					<div style="display:none;" class="inner cover box-frame" id="md5-frame">
                       <h1>MD5 Cryptography</h1>
-					  
+
 					  <p class="lead">Put the string to encrypt</p>
 					  <textarea class="form-control" id="md5-ta-01" rows="6" placeholder="Type the string to encrypt"></textarea>
                       <br/>
@@ -155,10 +155,10 @@
 					  <textarea readonly="readonly" id="md5-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-					
+
 					<div style="display:none;" class="inner cover box-frame" id="sha1-frame">
                       <h1>SHA1 Cryptography</h1>
-					  
+
 					  <p class="lead">Put the string to encrypt</p>
 					  <textarea class="form-control" id="sha1-ta-01" rows="6" placeholder="Type the string to encrypt"></textarea>
                       <br/>
@@ -167,10 +167,10 @@
 					  <textarea readonly="readonly" id="sha1-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-					
+
 					<div style="display:none;" class="inner cover box-frame" id="base64Encode-frame">
                       <h1>Base64 Encode Cryptography</h1>
-					  
+
 					  <p class="lead">Put the string to encrypt</p>
 					  <textarea class="form-control" id="base64Encode-ta-01" rows="6" placeholder="Type the string to encrypt"></textarea>
                       <br/>
@@ -179,10 +179,10 @@
 					  <textarea readonly="readonly" id="base64Encode-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-					
+
 					<div style="display:none;" class="inner cover box-frame" id="base64Decode-frame">
                       <h1>Base64 Decode Cryptography</h1>
-					  
+
 					  <p class="lead">Put the string to encrypt</p>
 					  <textarea class="form-control" id="base64Decode-ta-01" rows="6" placeholder="Type the string to encrypt"></textarea>
                       <br/>
@@ -191,10 +191,10 @@
 					  <textarea readonly="readonly" id="base64Decode-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-					
+
 					<div style="display:none;" class="inner cover box-frame" id="xteaEncode-frame">
                       <h1>Xtea Encode Cryptography</h1>
-					  
+
 					  <p class="lead">Put the string to encrypt</p>
 					  <textarea class="form-control" id="xteaEncode-ta-01" rows="6" placeholder="Type the string to encrypt"></textarea>
                       <br/>
@@ -203,10 +203,10 @@
 					  <textarea readonly="readonly" id="xteaEncode-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-					
+
 					<div style="display:none;" class="inner cover box-frame" id="xteaDecode-frame">
                       <h1>Xtea Decode Cryptography</h1>
-					  
+
 					  <p class="lead">Put the string to encrypt</p>
 					  <textarea class="form-control" id="xteaDecode-ta-01" rows="6" placeholder="Type the string to encrypt"></textarea>
                       <br/>
@@ -215,10 +215,10 @@
 					  <textarea readonly="readonly" id="xteaDecode-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-					
+
 					<div style="display:none;" class="inner cover box-frame" id="reverseString-frame">
                       <h1>Reverse a String</h1>
-					  
+
 					  <p class="lead">Put the string to reverse it</p>
 					  <textarea class="form-control" id="reverseString-ta-01" rows="6" placeholder="Type the string to reverse it"></textarea>
                       <br/>
@@ -227,10 +227,10 @@
 					  <textarea readonly="readonly" id="reverseString-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-					
+
 					<div style="display:none;" class="inner cover box-frame" id="replaceString-frame">
                       <h1>Replace a String</h1>
-					  
+
 					  <p class="lead">Put the strings for replacing</p>
 					  <textarea style="margin-bottom:4px;" class="form-control" id="replaceString-ta-01" rows="6" placeholder="Type the full string"></textarea>
 					  <input style="margin-bottom:4px;" id="replaceString-it-01" type="text" placeholder="Type the string you want to replace" class="form-control"/>
@@ -241,10 +241,10 @@
 					  <textarea readonly="readonly" id="replaceString-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-					
+
 					<div style="display:none;" class="inner cover box-frame" id="stringLength-frame">
                       <h1>String Length</h1>
-					  
+
 					  <p class="lead">Put the string to count the amount of chars</p>
 					  <textarea class="form-control" id="stringLength-ta-01" rows="6" placeholder="Type the string"></textarea>
                       <br/>
@@ -253,10 +253,10 @@
 					  <textarea readonly="readonly" id="stringLength-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-					
+
 					<div style="display:none;" class="inner cover box-frame" id="stripHTMLTags-frame">
                       <h1>Strip HTML tags</h1>
-					  
+
 					  <p class="lead">Put the string to strip the HTML tags from it</p>
 					  <textarea class="form-control" id="stripHTMLTags-ta-01" rows="6" placeholder="Type the string for HTML tag striping..."></textarea>
                       <br/>
@@ -265,11 +265,11 @@
 					  <textarea readonly="readonly" id="stripHTMLTags-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-					
-					
+
+
 					<div style="display:none;" class="inner cover box-frame" id="substring-frame">
                       <h1>Substring</h1>
-					  
+
 					  <p class="lead">Put the string for substring</p>
 					  <textarea style="margin-bottom:4px;" class="form-control" id="substring-ta-01" rows="6" placeholder="Type the full string"></textarea>
 					  <input style="margin-bottom:4px;" id="substring-it-01" type="text" placeholder="Type the first pointer" class="form-control"/>
@@ -280,7 +280,7 @@
 					  <textarea readonly="readonly" id="substring-ta-02" class="form-control" rows="6">The result string will be placed here...</textarea>
 					  <br/>
                     </div>
-									
+
                     <div class="mastfoot">
 						<a id="iframe-publicity-container"></a>
                         <div class="inner">
@@ -304,7 +304,7 @@
 	<script src="js/sweet-alert.min.js"></script>
 	<script src="js/jquery.crypt.js"></script>
 	<script src="js/tools.js"></script>
-	
+
 </body>
 
 </html>
